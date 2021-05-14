@@ -152,3 +152,26 @@ a:hover .title_2 {
     margin-left: 20%;
     font-size: small;
 }
+
+
+/* Font Weight */
+
+.vaccine-tracker .header-section .title,
+.about-project .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.vaccine-tracker {
+    margin-bottom: 10%;
+}
+
+.card-deck .card .title {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.card-deck .card .number {
+    font-weight: 900;
+    font-size: 40px;
+}
