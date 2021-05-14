@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#page-content-wrapper {
+    background: #fdfdfd;
+}
+
 
 /* Navaigation Sidebar */
 

@@ -12,6 +12,10 @@ body {
     color: #374049;
 }
 
+#page-content-wrapper {
+    background: #fdfdfd;
+}
+
 .vaccine-tracker {
     font-family: "Poppins", sans-serif;
     padding: 80px 0;

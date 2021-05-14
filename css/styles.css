@@ -17,6 +17,10 @@ body {
     color: #374049;
 }
 
+#page-content-wrapper {
+    background: #fdfdfd;
+}
+
 .wrapper {
     position: fixed;
     left: 0;
