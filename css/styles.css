@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+/**'Share Tech Mono', monospace**/
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f3f4f8;
+    color: #374049;
+}
+
+
+/* Navaigation Sidebar */
+.wrapper{
+    position: fixed;
+    left: 0;
+    width: 290px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.06);
+}
+.wrapper .navbar{
+    position: relative;
+}
+.wrapper .navbar .logo_img{
+    padding: 25px;
+    text-align: center;
+}
+
+.wrapper .navbar .logo_img{
+    padding: 25px;
+    text-align: center;
+}
+.wrapper .navbar .logo_img img
+{
+    width: 110px;
+    margin: 0 auto 10px;
+    display: block;
+    margin-left: 35pt;
+}
+
+.wrapper .navbar ul{
+    padding: 10px 40px;
+}
+.wrapper .navbar ul li > a{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    padding: 15px;
+    height: 50px;
+    color: #9ca0a5;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+.wrapper .navbar ul li a .icon{
+    margin-right: 10px;
+}
+.wrapper .navbar ul li a > span{
+    display: inline-block;
+}
+a.active .icon,
+a:hover .icon{
+    color: #F6D55C;
+}
+
+a.active .title_2, a:hover .title_2{
+    color: #F6D55C;
+    font-weight: 800;
+}
+/* Navaigation Sidebar */
+
+ /* Cards */
+.flex-container{
+  width: 750px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  background: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Poppins;
+  float: left;
+  margin: 10px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 20px 15px;
+}
+
+.card p1{
+  color: #149414;
+  font-weight: bold;
+}
+.card p2{
+  color: #ff6600;
+  font-weight: bold;
+}
+.card p3{
+  color: #A91622;
+  font-weight: bold;
+}
+/* Cards */

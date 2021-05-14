@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f3f4f8;
+    color: #374049;
+}
+
+
+/* Navaigation Sidebar */
+
+.wrapper {
+    position: fixed;
+    left: 0;
+    width: 290px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper .navbar {
+    position: relative;
+}
+
+.wrapper .navbar .logo_img {
+    padding: 25px;
+    text-align: center;
+}
+
+.wrapper .navbar .logo_img {
+    padding: 25px;
+    text-align: center;
+}
+
+.wrapper .navbar .logo_img img {
+    width: 110px;
+    margin: 0 auto 10px;
+    display: block;
+    margin-left: 35pt;
+}
+
+.wrapper .navbar ul {
+    padding: 10px 40px;
+}
+
+.wrapper .navbar ul li>a {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    padding: 15px;
+    height: 50px;
+    color: #9ca0a5;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+
+.wrapper .navbar ul li a .icon {
+    margin-right: 10px;
+}
+
+.wrapper .navbar ul li a>span {
+    display: inline-block;
+}
+
+a.active .icon,
+a:hover .icon {
+    color: #F6D55C;
+}
+
+a.active .title_2,
+a:hover .title_2 {
+    color: #F6D55C;
+    font-weight: 800;
+}
+
+
+/* Navaigation Sidebar */
+
+
+/* About us */
+
+p,
+a,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-team,
+.about-project {
+    font-family: "Poppins", sans-serif;
+    padding: 80px 0;
+    margin-left: 20%;
+}
+
+.section-team .header-section,
+.about-project {
+    margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title,
+.about-project .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #ffff9d;
+    border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+    background: linear-gradient(to right, rgb(242, 153, 74), rgb(242, 201, 76));
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+    padding: 12px;
+    border: 4px dashed #016cec;
+}
+
+.section-team .single-person .person-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(242, 153, 74), rgb(242, 201, 76));
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+    background: none;
+    background-color: #fff;
+    color: #016cec;
+}
+
+.section-team .single-person .person-info .full-name {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #22559c;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+    color: #fff;
+}
+
+.about-project .container .text-justify {
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.section-team .container .header-section {
+    margin-top: 0;
+}

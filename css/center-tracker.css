@@ -1,0 +1,21 @@
+#mapid {
+    display: flex;
+    height: 400px;
+    width: 100px;
+    min-height: 100%;
+    min-width: 100%;
+    margin-left: 12%;
+}
+
+.input-group {
+    margin-left: 12%;
+}
+
+.hospital-card {
+    margin-left: 23%;
+}
+
+.btn.btn-primary {
+    background-color: #F6D55C;
+    color: black;
+}
