@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
-/**'Share Tech Mono', monospace**/
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-*{
+/**'Share Tech Mono', monospace**/
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,106 +11,183 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background: #f3f4f8;
     color: #374049;
 }
 
-
-/* Navaigation Sidebar */
-.wrapper{
+.wrapper {
     position: fixed;
     left: 0;
     width: 290px;
     height: 100%;
     background: #fff;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.06);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.06);
 }
-.wrapper .navbar{
+
+.wrapper .navbar {
     position: relative;
 }
-.wrapper .navbar .logo_img{
+
+.wrapper .navbar .logo_img {
     padding: 25px;
     text-align: center;
 }
 
-.wrapper .navbar .logo_img{
+.wrapper .navbar .logo_img {
     padding: 25px;
     text-align: center;
 }
-.wrapper .navbar .logo_img img
-{
+
+.wrapper .navbar .logo_img img {
     width: 110px;
     margin: 0 auto 10px;
     display: block;
     margin-left: 35pt;
 }
 
-.wrapper .navbar ul{
+.wrapper .navbar ul {
     padding: 10px 40px;
 }
-.wrapper .navbar ul li > a{
-    display: block;
-    position: relative;
-    font-size: 14px;
-    padding: 15px;
-    height: 50px;
-    color: #9ca0a5;
-    font-weight: 600;
-    transition: all 1s ease;
-}
-.wrapper .navbar ul li a .icon{
+
+.wrapper .navbar ul li a .icon {
     margin-right: 10px;
 }
-.wrapper .navbar ul li a > span{
+
+.wrapper .navbar ul li a>span {
     display: inline-block;
 }
+
 a.active .icon,
-a:hover .icon{
+a:hover .icon {
     color: #F6D55C;
 }
 
-a.active .title_2, a:hover .title_2{
+a.active .title_2,
+a:hover .title_2 {
     color: #F6D55C;
     font-weight: 800;
 }
+
+
 /* Navaigation Sidebar */
 
- /* Cards */
-.flex-container{
-  width: 750px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around
-}
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-  background: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  font-family: Poppins;
-  float: left;
-  margin: 10px;
-}
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.container {
-  padding: 20px 15px;
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #fff;
+    opacity: 0.9;
+    transition: all .5s;
+    display: flex;
+    align-items: left;
 }
 
-.card p1{
-  color: #149414;
-  font-weight: bold;
+
+/* About us */
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    transition: all .5s;
 }
-.card p2{
-  color: #ff6600;
-  font-weight: bold;
+
+#menu-toggle {
+    transition: all .3s;
+    font-size: 2em;
 }
-.card p3{
-  color: #A91622;
-  font-weight: bold;
+
+
+/* Change the width of the sidebar to display it*/
+
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
 }
+
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+
+
+/* Sidebar styling */
+
+#sidebar-wrapper .sidebar-nav {
+    padding: 0;
+    list-style: none;
+    transition: all .5s;
+    width: 100%;
+    text-align: left;
+}
+
+#sidebar .logo_img {
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+
+.sidebar-nav li {
+    line-height: 30px;
+    width: 100%;
+    transition: all .3s;
+    padding: 10px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+    margin-left: 20%;
+    font-size: small;
+}
+
+
+/* Cards */
+
+.flex-container {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    background: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+    float: left;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 20px 15px;
+}
+
+.card p1 {
+    color: #149414;
+    font-weight: bold;
+}
+
+.card p2 {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.card p3 {
+    color: #A91622;
+    font-weight: bold;
+}
+
+
 /* Cards */
