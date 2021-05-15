@@ -142,3 +142,9 @@ a:hover .title_2 {
     margin-left: 20%;
     font-size: small;
 }
+
+.gallery-main .header-section .title {
+    font-weight: 700;
+    font-size: 47px;
+    margin-bottom: 10%;
+}
