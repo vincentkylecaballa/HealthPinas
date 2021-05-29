@@ -179,3 +179,22 @@ a:hover .title_2 {
     font-weight: 900;
     font-size: 40px;
 }
+
+
+/*footer*/
+
+.footers a {
+    color: #22559c;
+}
+
+.footers p {
+    color: #22559c;
+}
+
+.footers ul {
+    line-height: 30px;
+}
+
+.footers {
+    background-color: #ffff9d;
+}
