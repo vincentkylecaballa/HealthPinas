@@ -255,3 +255,22 @@ h4 {
 .section-team .container .header-section {
     margin-top: 0;
 }
+
+
+/*footer*/
+
+.footers a {
+    color: #22559c;
+}
+
+.footers p {
+    color: #22559c;
+}
+
+.footers ul {
+    line-height: 30px;
+}
+
+.footers {
+    background-color: #ffff9d;
+}
