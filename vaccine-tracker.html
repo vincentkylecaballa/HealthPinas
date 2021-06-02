@@ -125,6 +125,43 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <section class="vaccine-tracker">
+                                        <div>
+                                            <canvas id="vaccine-chart" width="100px" height="50px">
+                                                <script>
+                                                    var ctx = document.getElementById('vaccine-chart').getContext('2d');
+                                                    var myChart = new Chart(ctx, {
+                                                        type: 'bar',
+                                                        data: {
+                                                            labels: ['Pfizer', 'Novavax', 'Moderna', 'Johnson & Johnson', 'Gamaleya', 'Sinovac', 'AstraZeneca'],
+                                                            datasets: [{
+                                                                label: 'Through COVAX Facility',
+                                                                data: [193050, 0, 0, 0, 0, 0, 2556000],
+                                                                backgroundColor: 
+                                                                    '#f9ff21'
+                                                                }, {
+                                                                label: 'Donated', 
+                                                                data: [0, 0, 0, 0, 0, 1000000, 0],
+                                                                backgroundColor: '#071e3d'
+                                                                }, {
+                                                                label: 'Procured',
+                                                                data: [0, 0, 0, 0, 80000, 4500000, 0],
+                                                                backgroundColor: '#ff1f5a'                                                                }]
+                                                        },
+                                                        options: {
+                                                            scales: {
+                                                                x: {
+                                                                    beginAtZero: true,
+                                                                    stacked: true
+                                                                }
+                                                            }
+                                                        }
+                                                    });
+                                                </script>
+                                            </canvas>
+                                        </div>
+                                    </section>
                             </section>
                             </div>
                         </div>
