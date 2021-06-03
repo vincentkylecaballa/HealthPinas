@@ -126,41 +126,46 @@
                                         </div>
                                     </div>
 
-                                    <section class="vaccine-tracker">
+
+                                    <div class="card text-black mb-4 col-md-6 col-lg-12">
                                         <div class="container">
-                                            <canvas id="vaccine-chart" width="100px" height="150px">
-                                                <script>
-                                                    var ctx = document.getElementById('vaccine-chart').getContext('2d');
-                                                    var myChart = new Chart(ctx, {
-                                                        type: 'bar',
-                                                        data: {
-                                                            labels: ['Pfizer', 'Novavax', 'Moderna', 'Johnson & Johnson', 'Gamaleya', 'Sinovac', 'AstraZeneca'],
-                                                            datasets: [{
-                                                                label: 'Through COVAX Facility',
-                                                                data: [193050, 0, 0, 0, 0, 0, 2556000],
-                                                                backgroundColor: '#3d5af1'
-                                                                }, {
-                                                                label: 'Donated', 
-                                                                data: [0, 0, 0, 0, 0, 1000000, 0],
-                                                                backgroundColor: '#0e153a'
-                                                                }, {
-                                                                label: 'Procured',
-                                                                data: [0, 0, 0, 0, 80000, 4500000, 0],
-                                                                backgroundColor: '#e2f3f5'                                                                }]
-                                                        },
-                                                        options: {
-                                                            scales: {
-                                                                x: {
-                                                                    beginAtZero: true,
-                                                                    stacked: true
+                                            <h3 class="title">Vaccine Brand Tracker</h3>
+                                            <p><i>As of May 30, 2021</i></p>
+                                            <canvas id="vaccine-chart" width="100px" height="120px">
+                                                    <script>
+                                                        var ctx = document.getElementById('vaccine-chart').getContext('2d');
+                                                        var myChart = new Chart(ctx, {
+                                                            type: 'bar',
+                                                            data: {
+                                                                labels: ['Pfizer', 'Novavax', 'Moderna', 'Johnson & Johnson', 'Gamaleya', 'Sinovac', 'AstraZeneca'],
+                                                                datasets: [{
+                                                                    label: 'Through COVAX Facility',
+                                                                    data: [193050, 0, 0, 0, 0, 0, 2556000],
+                                                                    backgroundColor: '#3d5af1'
+                                                                    }, {
+                                                                    label: 'Donated', 
+                                                                    data: [0, 0, 0, 0, 0, 1000000, 0],
+                                                                    backgroundColor: '#0e153a'
+                                                                    }, {
+                                                                    label: 'Procured',
+                                                                    data: [0, 0, 0, 0, 80000, 4500000, 0],
+                                                                    backgroundColor: '#e2f3f5'                                                                }]
+                                                            },
+                                                            options: {
+                                                                scales: {
+                                                                    x: {
+                                                                        beginAtZero: true,
+                                                                        stacked: true
+                                                                    }
                                                                 }
                                                             }
-                                                        }
-                                                    });
-                                                </script>
-                                            </canvas>
+                                                        });
+                                                    </script>
+                                                </canvas>
                                         </div>
-                                    </section>
+                                    </div>
+
+
 
                                     <section class="vaccine-target">
                                         <div class="card-deck">
