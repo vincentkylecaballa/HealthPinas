@@ -146,3 +146,17 @@ a:hover .title_2 {
     font-size: 47px;
     margin-bottom: 10%;
 }
+
+
+/* Information Hub */
+
+.about-covid {
+    margin-bottom: 50px;
+}
+
+.about-covid .about-covid-title .title,
+.prevention .prevention-title .title {
+    font-weight: 600;
+    font-size: 30px;
+    color: darkblue;
+}
