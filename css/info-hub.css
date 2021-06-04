@@ -159,11 +159,10 @@ a:hover .title_2 {
 
 .about-covid .about-covid-title .title,
 .prevention .prevention-title .title,
-.vaccine-brands .vaccine-priority-title .title,
+.vaccine-brands .vaccine-title .title,
 .vaccine-priority .vaccine-priority-title .title {
     font-weight: 600;
     font-size: 30px;
-    color: darkblue;
 }
 
 
