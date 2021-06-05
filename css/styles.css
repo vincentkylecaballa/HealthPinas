@@ -194,4 +194,37 @@ a:hover .title_2 {
 }
 
 
-/* Cards */
+/* Footer */
+
+.footers a {
+    color: #22559c;
+}
+
+.footers p {
+    color: #22559c;
+}
+
+.footers ul {
+    line-height: 30px;
+}
+
+.footers {
+    background-color: #ffff9d;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.symptom-tracker .header-section .title,
+.dashboard .header-section .title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.symptom-tracker .symptom-checker {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
