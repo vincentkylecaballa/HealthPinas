@@ -42,4 +42,6 @@ function centerTracker() {
     var marker = new L.Marker(map.getCenter(), {
         icon: icon
     }).addTo(map);
+
+
 }
