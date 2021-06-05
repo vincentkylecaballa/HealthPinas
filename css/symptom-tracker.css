@@ -181,3 +181,8 @@ body {
     margin-top: 20%;
     margin-bottom: 20%;
 }
+
+.symptom-tracker .symptom-checker-btn {
+    margin-left: auto;
+    margin-right: auto;
+}
