@@ -14,7 +14,7 @@ function vaccineChart() {
                 backgroundColor: '#0e153a'
             }, {
                 label: 'Procured',
-                data: [0, 0, 0, 0, 80000, 4500000, 0],
+                data: [0, 0, 0, 0, 80000, 5500000, 0],
                 backgroundColor: '#e2f3f5'
             }]
         },
