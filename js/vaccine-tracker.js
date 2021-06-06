@@ -19,6 +19,8 @@ function vaccineChart() {
             }]
         },
         options: {
+
+
             scales: {
                 x: {
                     beginAtZero: true,
