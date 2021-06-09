@@ -373,3 +373,7 @@ tr rd:first-child {
 tr td {
     padding-top: 20px;
 }
+
+.contact-us {
+    background-color: lightgray;
+}
