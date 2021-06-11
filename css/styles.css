@@ -234,3 +234,93 @@ body {
     font-family: 'Poppins', sans-serif;
     font: 700px;
 }
+
+
+/* pre-loader */
+
+.dot12 {
+    position: relative;
+}
+
+.dot12 .dot {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.d1 {
+    left: 0%;
+    animation: dotLeft 1s ease infinite alternate;
+    background-color: orange;
+}
+
+.d2 {
+    left: 100%;
+    animation: dotRight 1s ease infinite alternate;
+    background-color: orange;
+}
+
+.d11 {
+    top: 0%;
+    animation: dotTop 1s ease infinite alternate;
+    background-color: #fff;
+}
+
+.d21 {
+    top: 100%;
+    animation: dotBottom 1s ease infinite alternate;
+    background-color: #fff;
+}
+
+@keyframes dotLeft {
+    0% {
+        left: 0%;
+    }
+    50% {
+        background-color: #fff;
+    }
+    100% {
+        left: calc(100% - 20px);
+        background-color: #fff;
+    }
+}
+
+@keyframes dotRight {
+    0% {
+        left: calc(100% - 20px);
+    }
+    50% {
+        background-color: #fff;
+    }
+    100% {
+        left: 0%;
+        background-color: #fff;
+    }
+}
+
+@keyframes dotTop {
+    0% {
+        top: 0%;
+    }
+    50% {
+        background-color: orange;
+    }
+    100% {
+        top: calc(100% - 20px);
+        background-color: orange;
+    }
+}
+
+@keyframes dotBottom {
+    0% {
+        top: calc(100% - 20px);
+    }
+    50% {
+        background-color: orange;
+    }
+    100% {
+        top: 0%;
+        background-color: orange;
+    }
+}
