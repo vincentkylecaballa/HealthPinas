@@ -215,3 +215,23 @@ a:hover .title_2 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.text-bg-c {
+    background: linear-gradient(to right, rgb(242, 153, 74), rgb(242, 201, 76));
+    color: white;
+}
+
+.vaccine-top-green {
+    background: linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61));
+    color: white;
+}
+
+.vaccine-top-red {
+    background: linear-gradient(to right, rgb(248, 80, 50), rgb(231, 56, 39));
+    color: white;
+}
+
+.vaccine-top-blue {
+    background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+    color: white;
+}
