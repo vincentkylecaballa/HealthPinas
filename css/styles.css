@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 600px) {
     .card .number {
-        font-size: 23px;
+        font-size: 18px;
     }
     .card .card-title {
         font-size: 13px
