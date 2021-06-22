@@ -2,15 +2,15 @@
 
 /**'Share Tech Mono', monospace**/
 
-@media screen and (min-width: 601px) {
-    .number {
-        font-size: small;
-    }
-}
-
 @media screen and (max-width: 600px) {
-    .number {
-        font-size: medium;
+    .card .number {
+        font-size: 23px;
+    }
+    .card .card-title {
+        font-size: 13px
+    }
+    .card .date {
+        font-size: 10px
     }
 }
 
@@ -273,6 +273,11 @@ body {
     background-color: #fff;
 }
 
+.number {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 @keyframes dotLeft {
     0% {
         left: 0%;
@@ -343,4 +348,15 @@ body {
 .vaccine-top-yellow {
     background: linear-gradient(to right, rgb(242, 153, 74), rgb(242, 201, 76));
     color: white;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.date {
+    font-size: small;
+    font: italic;
 }
