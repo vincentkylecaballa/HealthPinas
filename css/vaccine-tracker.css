@@ -7,6 +7,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+    .manila-table {
+        overflow-x: scroll;
+    }
+}
+
 body {
     background: #f3f4f8;
     color: #374049;
@@ -201,4 +207,11 @@ a:hover .title_2 {
 
 .vaccine-row {
     margin-bottom: 5%;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, rgb(194, 21, 0), rgb(255, 197, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
