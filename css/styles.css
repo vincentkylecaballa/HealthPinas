@@ -363,3 +363,14 @@ body {
     font: italic;
     text-align: start;
 }
+
+.card-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    background: linear-gradient(to right, rgb(194, 21, 0), rgb(255, 197, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -282,3 +282,16 @@ tr rd:first-child {
 tr td {
     padding-top: 20px;
 }
+
+.card-title {
+    text-align: center;
+    margin-left: 1%;
+    font-size: 40px;
+    font: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(194, 21, 0), rgb(255, 197, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

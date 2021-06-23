@@ -238,6 +238,11 @@ a:hover .title_2 {
     font-weight: bolder;
 }
 
+.c-bottom {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 .source {
     margin-top: 50px;
     font-size: x-small;
