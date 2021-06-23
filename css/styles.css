@@ -5,12 +5,18 @@
 @media screen and (max-width: 600px) {
     .card .number {
         font-size: 18px;
+        text-align: center;
     }
     .card .card-title {
-        font-size: 11px
+        font-size: 11px;
+        text-align: center;
     }
     .card .date {
-        font-size: 10px
+        font-size: 10px;
+        text-align: center;
+    }
+    img {
+        display: none;
     }
 }
 
@@ -230,11 +236,6 @@ body {
     margin-bottom: 20%;
 }
 
-.card-title {
-    font-family: 'Poppins', sans-serif;
-    font: 700px;
-}
-
 
 /* pre-loader */
 
@@ -354,9 +355,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: medium;
+    text-align: start;
 }
 
 .date {
-    font-size: small;
+    font-size: x-small;
     font: italic;
+    text-align: start;
 }
