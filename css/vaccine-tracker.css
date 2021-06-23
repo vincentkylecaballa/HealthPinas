@@ -14,7 +14,8 @@
     img {
         display: none;
     }
-    .number {
+    .number,
+    .c-bottom {
         font-size: x-small;
     }
 }
@@ -241,4 +242,11 @@ a:hover .title_2 {
     margin-top: 50px;
     font-size: x-small;
     text-align: medium;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
 }
