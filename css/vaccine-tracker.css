@@ -11,6 +11,12 @@
     .manila-table {
         overflow-x: scroll;
     }
+    img {
+        display: none;
+    }
+    .number {
+        font-size: x-small;
+    }
 }
 
 body {
@@ -224,4 +230,15 @@ a:hover .title_2 {
 .vaccine-top-blue {
     background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
     color: white;
+}
+
+.number {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.source {
+    margin-top: 50px;
+    font-size: x-small;
+    text-align: medium;
 }
