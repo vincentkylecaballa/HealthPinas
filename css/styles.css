@@ -4,11 +4,11 @@
 
 @media screen and (max-width: 600px) {
     .card .number {
-        font-size: 19px;
+        font-size: 3vw;
         text-align: center;
     }
     .card .card-title {
-        font-size: 11px;
+        font-size: 3vw;
         text-align: center;
     }
     .card .date {
@@ -156,7 +156,7 @@ a:hover .title_2 {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #ddd;
+    color: #0e153a;
     margin-left: 20%;
     font-size: small;
 }
@@ -354,7 +354,7 @@ body {
 .card-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: medium;
+    font-size: 0.8vw;
     text-align: start;
 }
 
