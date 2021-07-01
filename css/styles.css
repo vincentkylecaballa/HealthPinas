@@ -172,13 +172,7 @@ a:hover .title_2 {
 }
 
 .card {
-    width: 40%;
-    background: #ffffff;
     text-align: center;
-    font-size: 16px;
-    font-family: Poppins;
-    float: left;
-    margin: 10px;
 }
 
 .container {
