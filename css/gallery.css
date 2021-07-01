@@ -156,3 +156,26 @@ a:hover .title_2 {
     /* Safari 3-8 */
     transform: scale(1.5);
 }
+
+
+/* Footer */
+
+.footers a {
+    color: #f5eded;
+}
+
+h5 {
+    color: #F6D55C;
+}
+
+.footers p {
+    color: #f5eded;
+}
+
+.footers ul {
+    line-height: 30px;
+}
+
+.footers {
+    background-color: #071a52;
+}

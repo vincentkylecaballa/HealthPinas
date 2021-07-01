@@ -169,11 +169,15 @@ a:hover .title_2 {
 /* Footer */
 
 .footers a {
-    color: #22559c;
+    color: #f5eded;
+}
+
+h5 {
+    color: #F6D55C;
 }
 
 .footers p {
-    color: #22559c;
+    color: #f5eded;
 }
 
 .footers ul {
@@ -181,7 +185,7 @@ a:hover .title_2 {
 }
 
 .footers {
-    background-color: #ffff9d;
+    background-color: #071a52;
 }
 
 body {
