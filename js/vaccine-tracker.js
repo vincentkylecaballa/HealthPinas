@@ -6,7 +6,7 @@ function vaccineChart() {
             labels: ['Pfizer', 'Novavax', 'Moderna', 'Johnson & Johnson', 'Gamaleya', 'Sinovac', 'AstraZeneca'],
             datasets: [{
                 label: 'Through COVAX Facility',
-                data: [2472210, 0, 0, 0, 0, 0, 2556000],
+                data: [2479680, 0, 0, 0, 0, 0, 2556000],
                 backgroundColor: '#3d5af1'
             }, {
                 label: 'Donated',
@@ -14,8 +14,8 @@ function vaccineChart() {
                 backgroundColor: '#0e153a'
             }, {
                 label: 'Procured',
-                data: [0, 0, 0, 0, 180000, 8000000, 0],
-                backgroundColor: '#e2f3f5'
+                data: [0, 0, 249600, 0, 180000, 11000000, 0],
+                backgroundColor: '#22d1ee'
             }]
         },
         options: {
