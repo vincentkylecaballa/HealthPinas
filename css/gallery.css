@@ -78,12 +78,14 @@ a:hover .title_2 {
     width: 0;
     height: 100%;
     overflow-y: hidden;
-    background: #0e153a;
+    background: #ffffff;
     opacity: 0.9;
     transition: all .5s;
     display: flex;
     align-items: left;
 }
+
+
 
 
 /* About us */
@@ -138,7 +140,7 @@ a:hover .title_2 {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #ddd;
+    color: #071a52;
     margin-left: 20%;
     font-size: small;
 }

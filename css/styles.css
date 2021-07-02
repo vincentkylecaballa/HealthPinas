@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
 
 /**'Share Tech Mono', monospace**/
 
@@ -20,7 +20,7 @@
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -352,7 +352,7 @@ body {
 .card-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 0.8vw;
+    font-size: 1.1rem;
     text-align: start;
 }
 
